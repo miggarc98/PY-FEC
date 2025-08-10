@@ -114,6 +114,7 @@ La aplicación final combina **detección de rostros** con el **clasificador de 
 - **Reporte de clasificación:** métricas `precision`, `recall` y `f1-score` por cada emoción.
 
 - Pruebas con Rostros de personas en la web.
+ Si notamos hay dos imagenes una que es la implementacion del modelo con la camara web (izquierda) y la otra que es la busqueda como tal que hicimos 
   ![Imagen de entrenamiento](imagesGithub/Pruebatriste.png)
   ![Imagen de entrenamiento](imagesGithub/pruebaFeliz.png)
   
