@@ -18,11 +18,30 @@ El sistema está optimizado para funcionar en **tiempo real** a través de una c
 ## ✨ Características
 
 - **Clasificación de 8 emociones** humanas.  
-- **Entrenamiento con imágenes** de 224×224 píxeles en escala de grises.  
+- **Entrenamiento con imágenes** de 224×224 píxeles en escala de grises.
+  ![Imagen de entrenamiento](imagesGithub/Entrenamiento.png)
 - **Procesamiento en tiempo real** mediante cámara web.  
 - **Detección facial con modelo preentrenado SSD (Caffe)**.  
 - **Arquitectura CNN optimizada** para reconocimiento facial.  
 - **Evaluación con matriz de confusión** y reporte de clasificación.
+  
+  ![Imagen de entrenamiento](imagesGithub/matrizDeConfucion.png)
+
+
+  
+| Clase | Precision | Recall | F1-Score | Support |
+|-------|-----------|--------|----------|---------|
+| sadness     | 0.8497    | 0.7958 | 0.8219   | 4725    |
+| happiness     | 0.8675    | 0.5538 | 0.6761   | 130     |
+| fear    | 0.8335    | 0.8943 | 0.8629   | 795     |
+| neutrality    | 0.8650    | 0.7085 | 0.7789   | 3454    |
+| surprise    | 0.9088    | 0.9580 | 0.9328   | 9049    |
+| anger     | 0.8307    | 0.7737 | 0.8011   | 5072    |
+| disgust    | 0.7501    | 0.8740 | 0.8073   | 5403    |
+| contempt   | 0.9162    | 0.8902 | 0.9030   | 4226    |
+| **Accuracy**   |           |        | **0.8543** | 32854  |
+| **Macro Avg**  | 0.8527    | 0.8060 | 0.8230   | 32854  |
+| **Weighted Avg** | 0.8565  | 0.8543 | 0.8532   | 32854  |
 
 ---
 
