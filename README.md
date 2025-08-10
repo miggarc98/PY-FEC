@@ -137,6 +137,17 @@ La aplicación final combina **detección de rostros** con el **clasificador de 
 
 ---
 
+## Conclusiones
+
+- **Entrenamiento** → El modelo fue entrenado en un procesador **AMD Ryzen 5 5600G** sin el uso de GPU dedicada, lo que resultó en un tiempo aproximado de **18 horas** de entrenamiento. Con acceso a una GPU, el proceso habría sido significativamente más eficiente. ☹️
+
+- **Modelo** → Aunque el modelo presenta un rendimiento general aceptable, se observó cierta dificultad en la detección de las emociones de **tristeza** y **enojo**, las cuales tiende a confundir con otras clases.
+
+- **OpenCV** → La librería **OpenCV** se desempeñó de manera eficiente en la detección de rostros humanos, siendo una pieza fundamental para la implementación en tiempo real del sistema.
+
+- **Estructuración de la CNN** → El diseño y ajuste de la **Red Neuronal Convolucional** presentó grandes retos. El proceso implicó múltiples pruebas, errores y un análisis constante de métricas de desempeño. A pesar de las limitaciones de capacidad de cómputo, se logró un modelo funcional y satisfactorio para los objetivos del proyecto.
+
+
 ## 📬 Contacto
 
 **Miguel Ángel García Cañón**  
