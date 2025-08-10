@@ -112,7 +112,8 @@ La aplicación final combina **detección de rostros** con el **clasificador de 
 - **Evaluación en set de prueba:** precisión global obtenida durante la validación.  
 - **Matriz de confusión:** para analizar el rendimiento por clase.  
 - **Reporte de clasificación:** métricas `precision`, `recall` y `f1-score` por cada emoción.  
-
+  ![Imagen de entrenamiento](imagesGithub/Pruebatriste.png)
+  ![Imagen de entrenamiento](imagesGithub/pruebaFeliz.png)
 ---
 
 ## 🛠️ Tecnologías Utilizadas
@@ -128,6 +129,7 @@ La aplicación final combina **detección de rostros** con el **clasificador de 
 - **Matplotlib** → visualización  
 - **scikit-learn** → métricas y evaluación  
 - **mlxtend** → visualización de matriz de confusión  
+
 
 ---
 
